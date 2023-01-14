@@ -33,11 +33,11 @@ class Time:
     def conv(self):
         convert=self.h*3600+self.m*60+self.s
         return convert
-def conv1(self):     
-    hour=int(self/3600)  
-    min=int((self-hour*3600)/60)
-    second=int((self-hour*3600-min*60))
-    return [hour,min,second] 
+    def conv1(self):     
+        hour=int(self/3600)  
+        min=int((self-hour*3600)/60)
+        second=int((self-hour*3600-min*60))
+        return [hour,min,second] 
 time1=Time(10,20,25)
 time2=Time(8,30,40)
 second2=1565
